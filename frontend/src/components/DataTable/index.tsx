@@ -1,3 +1,4 @@
+import Pagination from 'components/Pagination';
 import React from 'react';
 
 
@@ -79,6 +80,7 @@ const DataTable = () => {
                         <td>15017.00</td>
                     </tr>
                 </tbody>
+                <Pagination />
             </table>
         </div>
 
