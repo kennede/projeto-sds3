@@ -5,7 +5,7 @@ import { BASE_URL } from 'utils/request';
 import { SalesSuccess } from 'types/sale';
 
 type ChartData = {
-    //labels: string[],
+    
     labels: { categories: string[] },
     series: [{
         name: string,
